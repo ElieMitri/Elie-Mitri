@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import Library from "../assets/Screenshot (5).png";
-import Movie from "../assets/Screenshot (35).png";
+import Lifts from "../assets/lifts.png" 
 import Virtual from "../assets/Screenshot (52).png";
 import Lab from "../assets/lab.png";
 import AOS from "aos";
@@ -31,15 +31,23 @@ const Projects = () => {
                 title="The Edit Lab"
                 languages="Html, Css, Javascript, React"
                 description="The Edit Lab is a course that teaches people how to edit professionally."
-                website="https://theeditlab.vercel.app/"
+                website="https://theeditlab.vercel.app"
                 // github="https://github.com/ElieMitri/elie-internship"
               />
+                <Project
+                  image={Lifts}
+                  title="Personal Trainer Website"
+                  languages="Html, Css, Javascript, React"
+                  description="This project is a representaion of a personal trainer's about and some more features."
+                  website="https://elie-lifts.vercel.app"
+                  // github="https://github.com/ElieMitri/Final"
+                />
               <Project
                 image={Virtual}
                 title="Virtual Internship"
                 languages="Html, Css, Javascript, React"
                 description="Vitrtual Internship is the perfect place for you to see the prices of nfts and see the authors and owners of these nfts."
-                website="https://elie-internship.vercel.app/"
+                website="https://elie-internship.vercel.app"
                 // github="https://github.com/ElieMitri/elie-internship"
               />
             <Project
@@ -47,16 +55,8 @@ const Projects = () => {
               title="Library"
               languages="Html, Css, Javascript, React"
               description="Library is a perfect place for you to explore new books and recomended for you to buy and read."
-              website="https://e-commerce-lilac-gamma.vercel.app/"
+              website="https://e-commerce-lilac-gamma.vercel.app"
               // github="https://github.com/ElieMitri/E-commerce"
-            />
-            <Project
-              image={Movie}
-              title="Movie finder"
-              languages="Html, Css, Javascript, React"
-              description="Movie finder is a website where you can search your favorite movie and now which year it came out."
-              website="https://final-seven-ashy.vercel.app/"
-              // github="https://github.com/ElieMitri/Final"
             />
           </ul>
         </div>
