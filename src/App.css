@@ -122,7 +122,7 @@ section {
 }
 
 .dark-theme #personal__logo {
-  filter: invert(1);
+  filter: invert(0);
 }
 
 .link__hover-effect--white:after {
@@ -166,12 +166,12 @@ nav,
   background-color: #242424;
 }
 mail .dark-theme #personal__logo {
-  filter: invert(1);
+  filter: invert(0);
 }
 #personal__logo {
-  width: 100px;
+  width: 120px;
   height: 100px;
-  color: black;
+  filter: invert(1);
 }
 .dark-theme .scroll__icon {
   border-color: white;
@@ -621,8 +621,9 @@ footer {
 }
 
 .footer__logo--img {
-  width: 70px;
-  filter: invert(1);
+  width: 120px;
+  height: 100px;
+  /* filter: invert(1); */
 }
 
 .footer__social--list {

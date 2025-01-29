@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 import { AiOutlineArrowUp } from "react-icons/ai";
+import LogoElie from "../assets/logoElie-removebg-preview.png";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="row footer__row">
           <a href="#" className="footer__anchor">
             <figure className="footer__logo">
-              <img src={Logo} className="footer__logo--img" alt="" />
+              <img src={LogoElie} className="footer__logo--img" alt="" />
             </figure>
             <span className="footer__logo--popper">
               Top
