@@ -181,7 +181,7 @@ const Landing = () => {
             data-aos-mirror="true"
             data-aos-once="true"
           >
-            I'm a <b className="purple">Frontend Software Engineer</b> with a
+            I'm a <b className="purple">Frontend Developer</b> with a
             strong passion for building web applications with great user
             experiences.
             <br />
