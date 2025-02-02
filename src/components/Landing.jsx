@@ -4,7 +4,7 @@ import shape_1 from "../assets/semi circle.svg";
 import shape_2 from "../assets/triangle.svg";
 import shape_3 from "../assets/squiggly.svg";
 import shape_4 from "../assets/circle.svg";
-import LogoElie from "../assets/logoElie-removebg-preview.png";
+import LogoElie from "../assets/Elie__3_-removebg-preview (1).png";
 import logo from "../assets/logo.png";
 import nextJS from "../assets/png-transparent-next-js-hd-logo-removebg-preview.png";
 import typescript from "../assets/png-transparent-typescript-hd-logo-thumbnail.png";

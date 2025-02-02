@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 import { AiOutlineArrowUp } from "react-icons/ai";
-import LogoElie from "../assets/logoElie-removebg-preview.png";
+import LogoElie from "../assets/Elie__2_-removebg-preview (1).png";
 
 const Footer = () => {
   return (
